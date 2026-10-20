@@ -5,23 +5,23 @@ class Osc52 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/moncho/osc52/releases/download/v0.1.1/osc52-aarch64-apple-darwin"
-      sha256 "98c9d263eab2a10b71c716484b9affd78ee73ba9c0bc9369de2a20d32fd90f58"
+      url "https://github.com/moncho/osc52/releases/download/v0.2.0/osc52-aarch64-apple-darwin"
+      sha256 "654c7cbf51b4c58707c10538d5015e383f60e2be30c70612f0ae56d02b7edd92"
     end
     on_intel do
-      url "https://github.com/moncho/osc52/releases/download/v0.1.1/osc52-x86_64-apple-darwin"
-      sha256 "b6f06c8a33675555e81c5bc004b89099217042999add62b029618978580aacb0"
+      url "https://github.com/moncho/osc52/releases/download/v0.2.0/osc52-x86_64-apple-darwin"
+      sha256 "b758e6936a952782f8e88b1341386b0ba722c625ba6177a42c252d8e78012be5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/moncho/osc52/releases/download/v0.1.1/osc52-aarch64-unknown-linux-musl"
-      sha256 "f4b5f13ca566f93d8eaccc5ce8f553710d95eb87fe44e6ec95ee58f2118c948a"
+      url "https://github.com/moncho/osc52/releases/download/v0.2.0/osc52-aarch64-unknown-linux-musl"
+      sha256 "2aeee55a0c8cc054d2718f10d9da23a5021b41219f0a13b180e6ff0606b86efb"
     end
     on_intel do
-      url "https://github.com/moncho/osc52/releases/download/v0.1.1/osc52-x86_64-unknown-linux-musl"
-      sha256 "4e5c78fbdc6ac95c9f4d8790be3795ff2bada7c92b77a1e009470fc6fb11ebb6"
+      url "https://github.com/moncho/osc52/releases/download/v0.2.0/osc52-x86_64-unknown-linux-musl"
+      sha256 "dc417aa655518d8dd6c298e7a4519d17f375f32fd971a8044a31da6c7183ae98"
     end
   end
 
