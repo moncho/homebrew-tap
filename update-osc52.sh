@@ -23,7 +23,6 @@ cat >Formula/osc52.rb <<EOF
 class Osc52 < Formula
   desc "Copy text to the clipboard through the terminal with OSC 52"
   homepage "https://github.com/$repo"
-  version "${tag#v}"
   license "MIT"
 
   on_macos do

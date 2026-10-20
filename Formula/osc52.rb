@@ -1,7 +1,6 @@
 class Osc52 < Formula
   desc "Copy text to the clipboard through the terminal with OSC 52"
   homepage "https://github.com/moncho/osc52"
-  version "0.1.1"
   license "MIT"
 
   on_macos do
